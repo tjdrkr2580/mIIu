@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat:wght@100;300&family=PT+Serif&family=Playfair+Display:ital,wght@1,500&display=swap");
 
-$font-Lato: "Lato", sans-serif;
-$font-Montserrat: "Montserrat", sans-serif;
-$font-Playfair: "Playfair Display", serif;
-$font-PT: "PT Serif", serif;
+// "Lato", sans-serif;
+// "Montserrat", sans-serif;
+// "Playfair Display", serif;
+// "PT Serif", serif;
 
 * {
   padding: 0;
@@ -12,4 +12,8 @@ $font-PT: "PT Serif", serif;
   list-style: none;
   text-decoration: none;
   font-size: 16px;
+}
+
+a {
+  color: black;
 }
