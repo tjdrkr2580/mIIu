@@ -1,5 +1,49 @@
-.logo {
+.web-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14rem;
+  height: 100vh;
+  border-right: 2px solid black;
+}
+.web-header .header-wrapper {
+  margin-top: 2rem;
+}
+.web-header .header-wrapper .logo {
   font-size: 2.5rem;
   font-family: 600;
   font-family: "Playfair Display", serif;
+}
+.web-header .header-wrapper .web-navs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.web-header .header-wrapper .web-navs .web-nav {
+  font-size: 1.1rem;
+  font-family: "PT Serif", serif;
+  transition: 0.4s;
+  text-align: left;
+}
+.web-header .header-wrapper .web-navs .web-nav:hover {
+  color: red;
+  letter-spacing: 0.15rem;
+}
+.web-header .header-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  font-family: "Playfair Display", serif;
+}
+.web-header .header-bottom .barcode {
+  width: 50%;
+  transform: rotate(-90deg);
+}
+.web-header .header-bottom p {
+  font-size: 1.3rem;
 }/*# sourceMappingURL=header.css.map */
