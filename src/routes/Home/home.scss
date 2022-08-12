@@ -4,6 +4,34 @@
 // "PT Serif", serif;
 
 .home-wrapper {
-  background-color: black;
-  width: calc(100vw - 14rem);
+  width: calc(100vw - 15vw);
+
+  .home-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    .g1 {
+      display: grid;
+      row-gap: 20px;
+    }
+    .g2 {
+      display: grid;
+      row-gap: 30px;
+    }
+
+    .home-image {
+      img {
+        cursor: pointer;
+        border-bottom: 2px solid black;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.5s;
+        &:hover {
+          filter: brightness(45%);
+          transform: scale(0.94);
+        }
+      }
+    }
+  }
 }

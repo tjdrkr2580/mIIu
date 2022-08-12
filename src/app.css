@@ -17,6 +17,10 @@ a {
   color: black;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .miiu-wrapper {
   width: 100vw;
   display: flex;

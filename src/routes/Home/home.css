@@ -1,4 +1,28 @@
 .home-wrapper {
-  background-color: black;
-  width: calc(100vw - 14rem);
+  width: 85vw;
+}
+.home-wrapper .home-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.home-wrapper .home-images .g1 {
+  display: grid;
+  row-gap: 20px;
+}
+.home-wrapper .home-images .g2 {
+  display: grid;
+  row-gap: 30px;
+}
+.home-wrapper .home-images .home-image img {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s;
+}
+.home-wrapper .home-images .home-image img:hover {
+  filter: brightness(45%);
+  transform: scale(0.94);
 }/*# sourceMappingURL=home.css.map */
