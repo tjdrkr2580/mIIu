@@ -8,26 +8,34 @@ const Header = () => {
     <header className="web-header">
       <div className="header-wrapper">
         <Link to="/">
-          <a className="logo">mIIu</a>
+          <h1 className="logo">mIIu</h1>
         </Link>
         <ul className="web-navs">
           <Link to="/">
-            <li className="web-nav"></li>
+            <li className="web-nav" key="1">
+              Home
+            </li>
           </Link>
-          <Link to="/">
-            <li className="web-nav">About</li>
+          <Link to="/about">
+            <li className="web-nav" key="2">
+              About
+            </li>
           </Link>
-          <Link to="/">
-            <li className="web-nav">Musics</li>
+          <Link to="/music">
+            <li className="web-nav" key="3">
+              Musics
+            </li>
           </Link>
-          <Link to="/">
-            <li className="web-nav">Contact</li>
+          <Link to="/contact">
+            <li className="web-nav" key="4">
+              Contact
+            </li>
           </Link>
         </ul>
-      </div>
-      <div className="header-bottom">
-        <p>Music To You.</p>
-        <img className="barcode" src={Barcode} alt="II barcode" />
+        <div className="header-bottom">
+          <p>Music To You.</p>
+          <img className="barcode" src={Barcode} alt="II barcode" />
+        </div>
       </div>
     </header>
   );

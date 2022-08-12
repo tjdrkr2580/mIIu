@@ -6,6 +6,8 @@
 // "PT Serif", serif;
 
 * {
+  scroll-behavior: smooth;
+  user-select: none;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -16,4 +18,9 @@
 
 a {
   color: black;
+}
+
+.miiu-wrapper {
+  width: 100vw;
+  display: flex;
 }

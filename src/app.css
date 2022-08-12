@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat:wght@100;300&family=PT+Serif&family=Playfair+Display:ital,wght@1,500&display=swap");
 * {
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -10,4 +15,9 @@
 
 a {
   color: black;
+}
+
+.miiu-wrapper {
+  width: 100vw;
+  display: flex;
 }/*# sourceMappingURL=app.css.map */

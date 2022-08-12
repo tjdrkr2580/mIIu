@@ -1,22 +1,29 @@
+// "Lato", sans-serif;
+// "Montserrat", sans-serif;
+// "Playfair Display", serif;
+// "PT Serif", serif;
+
 .web-header {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 14rem;
-  height: 100vh;
+  width: 20vw;
   border-right: 2px solid black;
 
   .header-wrapper {
+    height: 100vh;
+    position: fixed;
     margin-top: 2rem;
 
     .logo {
-      font-size: 2.5rem;
+      font-size: 3.5rem;
       font-family: 600;
       font-family: "Playfair Display", serif;
     }
 
     .web-navs {
+      margin-top: 2rem;
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
@@ -33,25 +40,26 @@
         }
       }
     }
-  }
 
-  .header-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    width: 100%;
-    position: absolute;
-    bottom: 10%;
-    font-family: "Playfair Display", serif;
+    .header-bottom {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      width: 100%;
 
-    .barcode {
-      width: 50%;
-      transform: rotate(-90deg);
-    }
+      font-family: "Playfair Display", serif;
+      margin-top: 5rem;
 
-    p {
-      font-size: 1.3rem;
+      .barcode {
+        width: 120px;
+        transform: rotate(-90deg);
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
     }
   }
 }
