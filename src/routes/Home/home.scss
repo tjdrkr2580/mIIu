@@ -17,14 +17,12 @@
     }
     .g2 {
       display: grid;
-      row-gap: 30px;
+      row-gap: 25px;
     }
 
     .home-image {
       img {
         cursor: pointer;
-        border-bottom: 2px solid black;
-        border-right: 2px solid black;
         width: 100%;
         object-fit: cover;
         transition: 0.5s;

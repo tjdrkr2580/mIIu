@@ -26,11 +26,11 @@ const Header = () => {
               Musics
             </li>
           </Link>
-          <Link to="/contact">
+          <a target="_blink" href="https://twitter.com/m2uofficial">
             <li className="web-nav" key="4">
               Contact
             </li>
-          </Link>
+          </a>
         </ul>
         <div className="header-bottom">
           <p>Music To You.</p>

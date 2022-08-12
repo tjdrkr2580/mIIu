@@ -5,7 +5,6 @@ import Header from "./components/Header/Header";
 import Home from "./routes/Home/Home";
 import About from "./routes/About/About";
 import Musics from "./routes/Musics/Musics";
-import Contact from "./routes/Contact/Contact";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/music" element={<Musics />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
