@@ -1,0 +1,19 @@
+.about-wrapper {
+  width: calc(100vw - 15rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-wrapper .about-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.about-wrapper .about-box .about-name {
+  font-size: 2.5rem;
+}
+.about-wrapper .about-profile {
+  width: 50rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=about.css.map */

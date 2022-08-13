@@ -12,13 +12,13 @@
 }
 .home-wrapper .home-images .g2 {
   display: grid;
-  row-gap: 25px;
+  row-gap: 10px;
 }
 .home-wrapper .home-images .home-image img {
   cursor: pointer;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   transition: 0.5s;
 }
 .home-wrapper .home-images .home-image img:hover {

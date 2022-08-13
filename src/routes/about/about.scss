@@ -1,0 +1,26 @@
+// "Lato", sans-serif;
+// "Montserrat", sans-serif;
+// "Playfair Display", serif;
+// "PT Serif", serif;
+
+.about-wrapper {
+  width: calc(100vw - 15rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .about-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .about-name {
+      font-size: 2.5rem;
+      font-family: ;
+    }
+  }
+
+  .about-profile {
+    width: 50rem;
+    object-fit: contain;
+  }
+}

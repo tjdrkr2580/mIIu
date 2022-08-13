@@ -17,14 +17,14 @@
     }
     .g2 {
       display: grid;
-      row-gap: 25px;
+      row-gap: 10px;
     }
 
     .home-image {
       img {
         cursor: pointer;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
         transition: 0.5s;
         &:hover {
           filter: brightness(45%);

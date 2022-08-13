@@ -8,7 +8,7 @@ const Header = () => {
     <header className="web-header">
       <div className="header-wrapper">
         <Link to="/">
-          <h className="logo">mIIu</h>
+          <h1 className="logo">mIIu</h1>
         </Link>
         <ul className="web-navs">
           <Link to="/">
