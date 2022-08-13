@@ -1,0 +1,26 @@
+$black: rgb(0, 0, 0);
+$off-white: rgba($black, 0.2);
+$spin-duration: 0.75s;
+$pulse-duration: 750ms;
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 0.25rem solid $off-white;
+  border-top-color: $black;
+  animation: spin $spin-duration infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
