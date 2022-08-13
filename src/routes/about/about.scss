@@ -2,9 +2,12 @@
 // "Montserrat", sans-serif;
 // "Playfair Display", serif;
 // "PT Serif", serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 .about-wrapper {
+  position: relative;
   width: calc(100vw - 15rem);
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -14,13 +17,26 @@
     flex-direction: column;
     gap: 2rem;
     .about-name {
-      font-size: 2.5rem;
-      font-family: ;
+      a {
+        font-size: 3vw;
+        font-family: "Playfair Display", serif;
+        transition: 0.2s letter-spacing;
+        &:hover {
+          letter-spacing: 0.02rem;
+        }
+      }
+    }
+    .about-desc {
+      font-family: "Poppins", sans-serif;
+      p {
+        font-size: 1.15vw;
+        margin-bottom: 0.7rem;
+      }
     }
   }
 
   .about-profile {
-    width: 50rem;
+    width: 30vw;
     object-fit: contain;
   }
 }

@@ -1,7 +1,12 @@
 import React from "react";
+import AnimationPage from "./../../AnimationPage";
 
 const Musics = () => {
-  return <div>Musics</div>;
+  return (
+    <AnimationPage>
+      <div>Musics</div>
+    </AnimationPage>
+  );
 };
 
 export default Musics;
