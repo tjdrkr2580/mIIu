@@ -12,6 +12,7 @@ const Home = () => {
     });
   };
   useEffect(() => {
+    AOS.refresh();
     AOS.init();
   });
   return (
@@ -22,55 +23,28 @@ const Home = () => {
             <img src={require("../../assets/pic1.png")} alt="pic1" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic3.png")}
-              alt="pic3"
-              data-aos="flip-left"
-              data-aos-offset="400"
-            />
+            <img src={require("../../assets/pic3.png")} alt="pic3" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic5.png")}
-              alt="pic5"
-              data-aos="flip-left"
-              data-aos-offset="500"
-            />
+            <img src={require("../../assets/pic5.png")} alt="pic5" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic7.png")}
-              alt="pic7"
-              data-aos="flip-left"
-            />
+            <img src={require("../../assets/pic7.png")} alt="pic7" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic9.png")}
-              alt="pic9"
-              data-aos="flip-left"
-            />
+            <img src={require("../../assets/pic9.png")} alt="pic9" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic11.png")}
-              alt="pic11"
-              data-aos="flip-left"
-            />
+            <img src={require("../../assets/pic11.png")} alt="pic11" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic13.png")}
-              alt="pic13"
-              data-aos="flip-left"
-            />
+            <img src={require("../../assets/pic13.png")} alt="pic13" />
           </li>
           <li className="home-image">
             <img
               src={require("../../assets/pic15.png")}
               onClick={scrollToTop}
               alt="pic15"
-              data-aos="flip-left"
             />
           </li>
         </div>
@@ -79,47 +53,22 @@ const Home = () => {
             <img src={require("../../assets/pic2.png")} alt="pic2" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic4.png")}
-              alt="pic4"
-              data-aos="flip-left"
-              data-aos-offset="600"
-            />
+            <img src={require("../../assets/pic4.png")} alt="pic4" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic6.png")}
-              alt="pic6"
-              data-aos="flip-left"
-            />
+            <img src={require("../../assets/pic6.png")} alt="pic6" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic8.png")}
-              alt="pic8"
-              data-aos="flip-left"
-            />
+            <img src={require("../../assets/pic8.png")} alt="pic8" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic10.png")}
-              alt="pic10"
-              data-aos="flip-left"
-            />
+            <img src={require("../../assets/pic10.png")} alt="pic10" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic12.png")}
-              alt="pic12"
-              data-aos="flip-left"
-            />
+            <img src={require("../../assets/pic12.png")} alt="pic12" />
           </li>
           <li className="home-image">
-            <img
-              src={require("../../assets/pic14.png")}
-              alt="pic14"
-              data-aos="flip-left"
-            />
+            <img src={require("../../assets/pic14.png")} alt="pic14" />
           </li>
         </div>
       </ul>
