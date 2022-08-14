@@ -21,7 +21,7 @@ const About = () => {
             <section className="about-box">
               <h1 className="about-name">
                 <a href="https://namu.wiki/w/M2U" target="_blink">
-                  Korea's Game OST Producer
+                  Music To You, Shin dong-hwi
                 </a>
               </h1>
               <section className="about-desc">

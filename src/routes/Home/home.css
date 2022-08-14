@@ -1,5 +1,5 @@
 .home-wrapper {
-  width: 85vw;
+  width: calc(100vw - 13rem);
 }
 .home-wrapper .home-images {
   display: grid;

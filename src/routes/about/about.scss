@@ -6,7 +6,7 @@
 
 .about-wrapper {
   position: relative;
-  width: calc(100vw - 15rem);
+  width: calc(100vw - 12rem);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
     gap: 2rem;
     .about-name {
       a {
-        font-size: 3vw;
+        font-size: 2.5vw;
         font-family: "Playfair Display", serif;
         transition: 0.2s letter-spacing;
         &:hover {
@@ -36,6 +36,7 @@
   }
 
   .about-profile {
+    border-radius: 35%;
     width: 30vw;
     object-fit: contain;
   }
