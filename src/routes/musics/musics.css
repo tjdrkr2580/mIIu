@@ -1,5 +1,6 @@
 .music-wrapper {
   width: calc(100vw - 13rem);
+  height: 100vh;
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 30px;

@@ -19,9 +19,10 @@
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  transition: 0.5s;
+  transition: 0.3s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .home-wrapper .home-images .home-image img:hover {
   filter: brightness(45%);
-  transform: scale(0.94);
+  transform: scale(0.96);
 }/*# sourceMappingURL=home.css.map */
