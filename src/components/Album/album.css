@@ -1,3 +1,43 @@
-.Album-wrapper {
-  width: calc(100vw - 12rem);
+.albums-wrapper {
+  margin: 3rem 0 0 3rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+}
+.albums-wrapper .album-wrapper {
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  width: 400px;
+  height: 100%;
+  transition: 0.3s background-color;
+}
+.albums-wrapper .album-wrapper img {
+  width: 150px;
+}
+.albums-wrapper .album-wrapper .album-text-box {
+  margin-left: 1rem;
+  display: flex;
+  gap: 0.4rem;
+  flex-direction: column;
+}
+.albums-wrapper .album-wrapper .album-text-box h1 {
+  font-size: 1.3rem;
+  font-family: "Lato", sans-serif;
+}
+.albums-wrapper .album-wrapper .album-text-box span {
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+.albums-wrapper .album-wrapper .album-text-box p {
+  font-family: "Lato", sans-serif;
+}
+.albums-wrapper .album-wrapper:hover {
+  background-color: rgb(226, 226, 226);
+}
+.albums-wrapper .album-wrapper:active {
+  transform: scale(0.99);
 }/*# sourceMappingURL=album.css.map */

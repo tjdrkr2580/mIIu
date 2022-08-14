@@ -1,3 +1,49 @@
-.Album-wrapper {
-  width: calc(100vw - 12rem);
+// "Lato", sans-serif;
+// "Montserrat", sans-serif;
+// "Playfair Display", serif;
+// "PT Serif", serif;
+
+.albums-wrapper {
+  margin: 3rem 0 0 3rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+
+  .album-wrapper {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    width: 400px;
+    height: 100%;
+    transition: 0.3s background-color;
+    img {
+      width: 150px;
+    }
+    .album-text-box {
+      margin-left: 1rem;
+      display: flex;
+      gap: 0.4rem;
+      flex-direction: column;
+      h1 {
+        font-size: 1.3rem;
+        font-family: "Lato", sans-serif;
+      }
+      span {
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+      }
+      p {
+        font-family: "Lato", sans-serif;
+      }
+    }
+    &:hover {
+      background-color: rgb(226, 226, 226);
+    }
+    &:active {
+      transform: scale(0.99);
+    }
+  }
 }

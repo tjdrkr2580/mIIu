@@ -1,17 +1,20 @@
-import React, { useEffect, useState } from "react";
-import Loading from "./../../routes/Loading/Loading";
+import React from "react";
+import "./album.css";
 
 const Album = ({ albums }) => {
   return (
-    <>
+    <section className="albums-wrapper">
       {albums.map((album) => (
-        <section key={album.num} className="Album-wrapper">
+        <div className="album-wrapper" key={album.num}>
           <img src={`${album.src}`} alt="Album images" />
-          <h1 className="Album-name">{album.name}</h1>
-          <p>{album.date}</p>
-        </section>
+          <div className="album-text-box">
+            <h1 className="Album-name">{album.name}</h1>
+            <span>{album.date}</span>
+            <p>{album.composer}</p>
+          </div>
+        </div>
       ))}
-    </>
+    </section>
   );
 };
 export default Album;

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 .about-wrapper {
   position: relative;
-  width: calc(100vw - 12rem);
+  width: calc(100vw - 13rem);
   height: 100vh;
   display: flex;
   align-items: center;
