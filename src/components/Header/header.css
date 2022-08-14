@@ -1,13 +1,14 @@
 .web-header {
+  z-index: 3;
+  background-color: transparent;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 13rem;
-  height: 100vh;
 }
 .web-header .header-wrapper {
-  top: 5%;
+  top: 10%;
   height: 100vh;
   position: fixed;
   margin-top: 2rem;
@@ -49,4 +50,40 @@
 }
 .web-header .header-wrapper .header-bottom p {
   font-size: 1.3rem;
+}
+
+@media (max-width: 700px) {
+  .web-header {
+    z-index: 999;
+    background-color: #f8f8ff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 180px;
+  }
+  .web-header .header-wrapper {
+    top: 0%;
+    height: 10px;
+    position: fixed;
+    margin-top: 2rem;
+  }
+  .web-header .header-wrapper .logo {
+    text-align: center;
+  }
+  .web-header .header-wrapper .web-navs {
+    flex-direction: row;
+  }
+  .web-header .header-wrapper .web-navs .web-nav:hover {
+    color: red;
+    letter-spacing: normal;
+  }
+  .web-header .header-wrapper .header-bottom {
+    display: none;
+  }
+}
+@media (min-width: 701px) {
+  .web-header {
+    height: 100vh;
+  }
 }/*# sourceMappingURL=header.css.map */

@@ -22,6 +22,7 @@
 
   .album-wrapper {
     position: relative;
+    top: 25%;
     left: 1%;
     cursor: pointer;
     width: 500px;
@@ -50,14 +51,6 @@
         font-family: "Lato", sans-serif;
         font-weight: 500;
       }
-
-      // &::before {
-      //   position: absolute;
-      //   bottom: 0%;
-      //   z-index: 3;
-      //   content: "ㅇ";
-      //   font-size: 1rem;
-      // }
     }
     &:hover {
       filter: brightness(70%);
@@ -66,7 +59,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .albums-wrapper {
     margin: 3rem 0 0 3rem;
     top: 5%;
@@ -75,5 +68,10 @@
     display: grid;
     gap: 50px;
     grid-template-columns: 1fr;
+    .album-wrapper {
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
   }
 }

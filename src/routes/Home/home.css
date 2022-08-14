@@ -25,4 +25,19 @@
 .home-wrapper .home-images .home-image img:hover {
   filter: brightness(45%);
   transform: scale(0.96);
+}
+
+@media (max-width: 700px) {
+  .home-wrapper {
+    margin-top: 230px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: calc(100vw - 13rem);
+  }
+  .home-wrapper .home-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }/*# sourceMappingURL=home.css.map */

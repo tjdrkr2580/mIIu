@@ -29,7 +29,6 @@ body {
 
 .miiu-wrapper {
   width: 100vw;
-  display: flex;
 }
 
 .page-slider-enter {
@@ -52,4 +51,10 @@ body {
 .transition-group {
   position: relative;
   background-color: #000;
+}
+
+@media (min-width: 701px) {
+  .miiu-wrapper {
+    display: flex;
+  }
 }

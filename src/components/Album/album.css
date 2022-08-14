@@ -16,6 +16,7 @@
 }
 .albums-wrapper .album-wrapper {
   position: relative;
+  top: 25%;
   left: 1%;
   cursor: pointer;
   width: 500px;
@@ -49,7 +50,7 @@
   background-color: rgb(200, 200, 200);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .albums-wrapper {
     margin: 3rem 0 0 3rem;
     top: 5%;
@@ -58,5 +59,10 @@
     display: grid;
     gap: 50px;
     grid-template-columns: 1fr;
+  }
+  .albums-wrapper .album-wrapper {
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }/*# sourceMappingURL=album.css.map */
