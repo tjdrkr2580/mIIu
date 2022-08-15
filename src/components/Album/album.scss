@@ -59,7 +59,7 @@
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .albums-wrapper {
     margin: 3rem 0 0 3rem;
     top: 5%;
@@ -69,6 +69,22 @@
     gap: 50px;
     grid-template-columns: 1fr;
     .album-wrapper {
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .albums-wrapper {
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%);
+    margin-top: 10rem;
+
+    .album-wrapper {
+      width: 350px;
       left: 10%;
       top: 50%;
       transform: translateY(-50%);

@@ -18,6 +18,7 @@ const About = () => {
       ) : (
         <AnimationPage>
           <section className="about-wrapper">
+            <img className="about-profile" src={m2u} alt="profile" />
             <section className="about-box">
               <h1 className="about-name">
                 <a href="https://namu.wiki/w/M2U" target="_blink">
@@ -46,7 +47,6 @@ const About = () => {
                 <p>various people who love Korean game music.</p>
               </section>
             </section>
-            <img className="about-profile" src={m2u} alt="profile" />
           </section>
         </AnimationPage>
       )}

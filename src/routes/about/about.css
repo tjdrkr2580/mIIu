@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 .about-wrapper {
   position: relative;
-  width: calc(100vw - 13rem);
+  width: calc(100vw - 16rem);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@
   gap: 2rem;
 }
 .about-wrapper .about-box .about-name a {
-  font-size: 2.5vw;
+  font-size: 2.2rem;
   font-family: "Playfair Display", serif;
   transition: 0.2s letter-spacing;
 }
@@ -24,7 +24,7 @@
   font-family: "Poppins", sans-serif;
 }
 .about-wrapper .about-box .about-desc p {
-  font-size: 1.15vw;
+  font-size: 1rem;
   margin-bottom: 0.7rem;
 }
 .about-wrapper .about-profile {
@@ -32,4 +32,35 @@
   width: 30vw;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+@media (max-width: 1000px) {
+  .about-wrapper {
+    margin-top: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    height: 80vh;
+  }
+  .about-wrapper .about-box {
+    align-items: center;
+  }
+  .about-wrapper .about-box .about-name a {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Playfair Display", serif;
+    letter-spacing: normal;
+  }
+  .about-wrapper .about-box .about-desc {
+    margin-top: 0rem;
+    text-align: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+  }
+  .about-wrapper .about-box .about-desc p {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
 }/*# sourceMappingURL=about.css.map */
