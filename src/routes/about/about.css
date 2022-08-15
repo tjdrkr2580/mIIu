@@ -13,7 +13,7 @@
   gap: 2rem;
 }
 .about-wrapper .about-box .about-name a {
-  font-size: 2.2rem;
+  font-size: 2.5vw;
   font-family: "Playfair Display", serif;
   transition: 0.2s letter-spacing;
 }
@@ -34,7 +34,7 @@
      object-fit: contain;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .about-wrapper {
     margin-top: 150px;
     position: absolute;
