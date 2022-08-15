@@ -7,6 +7,10 @@ import Loading from "../Loading/Loading";
 const About = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
+    const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `About | mIIu`;
+  }, []);
+  useEffect(() => {
     setInterval(() => {
       setLoading(false);
     }, 250);

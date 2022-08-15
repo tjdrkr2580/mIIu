@@ -48,7 +48,7 @@ const Musics = () => {
       composer: "M2U",
     },
     {
-      url: "https://www.music-flo.com/detail/album/zzliae/albumtrack",
+      url: "https://www.music-flo.com/detail/album/nndnzi/albumtrack",
       src: "https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/110/873/80110873_1_600x600.JPG/dims/resize/Q_80,0",
       num: 6,
       name: "Violinism",
@@ -60,6 +60,8 @@ const Musics = () => {
     setInterval(() => {
       setLoading(false);
     }, 150);
+    const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `Musics | mIIu`;
   }, []);
   return (
     <section className="music-wrapper">

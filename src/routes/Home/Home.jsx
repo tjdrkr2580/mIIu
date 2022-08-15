@@ -9,6 +9,8 @@ const Home = () => {
     setInterval(() => {
       setLoading(false);
     }, 150);
+    const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `Home | mIIu`;
   }, []);
   return (
     <>
