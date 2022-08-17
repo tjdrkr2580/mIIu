@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./musics.css";
 import Album from "../../components/Album/Album";
-import AnimationPage from "./../../AnimationPage";
-import Loading from "./../Loading/Loading";
+import AnimationPage from "../../AnimationPage";
+import Loading from "../Loading/Loading";
 
 const Musics = () => {
   const [loading, setLoading] = useState(true);

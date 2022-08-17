@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import m2u from "../../assets/pic1.png";
 import "./about.css";
-import AnimationPage from "./../../AnimationPage";
+import AnimationPage from "../../AnimationPage";
 import Loading from "../Loading/Loading";
 
 const About = () => {

@@ -18,7 +18,7 @@ const Home = () => {
         <Loading />
       ) : (
         <AnimationPage>
-          <section className="home-wrapper">
+          <section className="home-wrapper" onClick={() => {}}>
             <ul className="home-images">
               <div className="g1">
                 <li className="home-image">
